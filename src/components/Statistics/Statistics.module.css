@@ -1,0 +1,35 @@
+.section {
+    width: 500px;
+    border: 2px solid black;
+    margin: 10px 30px;
+}
+
+.title {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    background-color: blue;
+
+}
+
+.listItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 25px;
+    border-radius: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100px;
+
+
+}

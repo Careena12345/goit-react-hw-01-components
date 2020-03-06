@@ -1,0 +1,12 @@
+.table {
+    border: 1px solid blueviolet;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 30px;
+
+}
+
+.tdata {
+    composes: table;
+    padding: 5px;
+}
