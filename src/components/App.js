@@ -8,16 +8,13 @@ import FriendList from "./Friends/FriendList";
 import TransactionHistory from "./Transactions/TransactionHistory";
 import transactionData from "./Transactions/transactions.json";
 
-
-
-
-export default function App(){
-    return(
-        <>
-        <Profile user={userList}/>
-        <Statistics title="Upload stats" stats={statisticalData}/>
-        <FriendList friends={friendsList}/>
-        <TransactionHistory items={transactionData} />
-        </>
-    );
+export default function App() {
+  return (
+    <>
+      <Profile user={userList} />
+      <Statistics title="" stats={statisticalData} />
+      <FriendList friends={friendsList} />
+      <TransactionHistory items={transactionData} />
+    </>
+  );
 }
