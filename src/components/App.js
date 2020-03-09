@@ -12,7 +12,7 @@ export default function App() {
   return (
     <>
       <Profile user={userList} />
-      <Statistics title="" stats={statisticalData} />
+      <Statistics title="Upload stats" stats={statisticalData} />
       <FriendList friends={friendsList} />
       <TransactionHistory items={transactionData} />
     </>
