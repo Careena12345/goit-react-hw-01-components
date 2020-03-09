@@ -6,7 +6,6 @@ function Statistics({ title, stats }) {
   return (
     <section className={styles.section}>
       {title && <h2 className={styles.title}>{title}</h2>}
-
       <ul className={styles.list}>
         {stats.map(stat => (
           <li className={styles.listItem} key={stat.id}>
